@@ -7,3 +7,11 @@ algoritma mimarisi için önemlidir.
 Burada teorik olarak bu işlemlerin nasıl gerçekleştiğini ve pratik uygulamalarını inceleyeceğiz.
 
 ## Event Loop (Olay Döngüsü)
+Event Loop konsepti gayet basittir. JavaScript motorumuzdaki kodlarımızı
+çalıştıran döngümüz aşağıdaki gibi sonsuz bir döngüdür.
+```
+    	while(true){
+            kodlarımız...
+            ............
+        }
+```
